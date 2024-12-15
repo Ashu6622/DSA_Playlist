@@ -1,18 +1,26 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int solve(vector<int> &nums, int index, int prevIndex){
+int solve(vector<int> &nums, int index, int prevIndex, vector<vector<int>> &dp){
 
     if(index >= nums.size()){
         return 0;
     }
 
-    int take = 0;
-    if(prevIndex == -1 || nums[prevIndex] < nums[index]){
-        take = solve(nums, index+1, index)+1;
+    if(prevIndex != -1 && dp[index][prevIndex] != -1){
+        return dp[index][prevIndex];
     }
 
-    int skip = solve(nums, index+1, prevIndex);
+    int take = 0;
+    if(prevIndex == -1 || nums[prevIndex] < nums[index]){
+        take = solve(nums, index+1, index, dp)+1;
+    }
+
+    int skip = solve(nums, index+1, prevIndex, dp);
+
+    if(prevIndex != -1){
+        dp[index][prevIndex] = max(skip, take);
+    }
 
     return max(skip, take);
 }
@@ -20,7 +28,8 @@ int solve(vector<int> &nums, int index, int prevIndex){
 int main(){
     vector<int> nums = {10,9,2,5,3,7,101,18};
 
-    int result = solve(nums, 0, -1);
+    vector<vector<int>> dp(nums.size()+1, vector<int>(nums.size()+1, -1));
+    int result = solve(nums, 0, -1, dp);
 
     cout<<result<<endl;
 }
