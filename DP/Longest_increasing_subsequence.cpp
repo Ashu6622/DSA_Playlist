@@ -26,7 +26,7 @@ int solve(vector<int> &nums, int index, int prevIndex, vector<vector<int>> &dp){
 }
 
 int main(){
-    vector<int> nums = {10,9,2,5,3,7,101,18};
+    vector<int> nums = {5,5,5,5,5,5};
 
     vector<vector<int>> dp(nums.size()+1, vector<int>(nums.size()+1, -1));
     int result = solve(nums, 0, -1, dp);
