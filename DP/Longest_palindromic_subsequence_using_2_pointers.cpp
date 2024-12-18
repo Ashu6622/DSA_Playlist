@@ -17,7 +17,8 @@ int solve(string str,int start, int end, vector<vector<int>> &dp){
 
 
      if(str[start] == str[end]){
-        return solve(str, start+1, end-1, dp) + 2;  //if both the s are same then the length will be 2, as there are two characters which are same
+        dp[start][end] = solve(str, start+1, end-1, dp) + 2;  //if both the s are same then the length will be 2, as there are two characters which are same
+        return dp[start][end];
      }
 
      int left = solve(str, start+1, end, dp);
