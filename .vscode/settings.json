@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.C": "c",
+        "*.c": "c",
+        "*.java": "java",
+        "string_view": "cpp",
+        "regex": "cpp"
+    }
+}
