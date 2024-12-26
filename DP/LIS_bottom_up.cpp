@@ -18,6 +18,8 @@ int main(){
         }
     }
 
+    // dp[i] == longest increasing subsequence till index i
+
     int maxLength = 1;
 
     for(int i=0;i<n;i++){
