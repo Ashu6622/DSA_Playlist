@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-        vector<int> nums = {5,5,5,5,5,5,5};
+        vector<int> nums = {5,4,11,1,16,8};
 
         int n = nums.size();
         vector<int> dp(n,1);
