@@ -1,4 +1,4 @@
-Type of suarray problems
+Type of subarray problems on sliding window technique
 1) length of subarray
 2) count subarrays
 
