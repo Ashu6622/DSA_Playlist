@@ -30,7 +30,7 @@ int solve(string str,int start, int end, vector<vector<int>> &dp){
 }
 
 int main(){
-    string str = "abcaa";
+    string str = "aabccba";
 
     vector<vector<int>> dp(str.length()+1, vector<int>(str.length(), -1));
 
