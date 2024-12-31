@@ -18,10 +18,10 @@ int main(){
     int k = 8;
 
     int s = 1;
-    int e = k;
+    int e = *max_element(arr.begin(), arr.begin());
     int ans = -1;
 
-    while(s <= e){
+    while(s < e){
 
         int mid = (s+e)/2;
 
