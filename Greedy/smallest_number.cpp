@@ -5,13 +5,16 @@ using namespace std;
 // if D = 4, i.e 4 digit number
 // _ _ _ _ , if the number to be smallest then the first digit should always start with 1, followed with 0's and at the end non zero numbers should be placed
 
+
+// form the smallest number with digit D and sum of the digits must ne equal to S
+
 int main()
 {
 
     int S = 16;
     int D = 1;
 
-    if (S > 9 * D)
+    if (S > 9 * D)   //maximum sum can be , when all the digits is filled with 9, so 9*D and if the given sum is greater then this then it not posiible to form the number
     {
         cout<<"-1"<<endl;
         return 0;
