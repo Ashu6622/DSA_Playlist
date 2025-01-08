@@ -23,7 +23,7 @@ int solve(int i, int j, string &s1, string &s2, int count, map<string,int> &dp){
             maxLength = solve(i+1,j+1,s1,s2,count+1, dp);
     }
 
-    // if not same then the previous substring which were same , can not be the part of upcoming coomon substring, so count = 0
+    // if not same then the previous substring which were same , can not be the part of upcoming common substring, so count = 0
     int include_i = solve(i+1, j, s1,s2,0, dp);
     int include_j = solve(i, j+1, s1,s2,0, dp);
 
