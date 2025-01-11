@@ -17,3 +17,6 @@ Example-> haystack = "a a e a a c d a a e"
 
           Important Example-> haystack = a a e a a e a a d
                               needle   = a a e a a d
+
+        Important Note--> We never move back in main String, we always move back in secondary string in KMP
+        algorithm
