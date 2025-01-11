@@ -5,6 +5,68 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// brute approach
+
+
+class Solution {
+public:
+
+bool isPalindrome(string s){
+
+    if(s.length() == 1){
+        return true;
+    }
+
+    int i = 0;
+    int j = s.length()-1;
+
+    while(i < j){
+
+        if(s[i] != s[j]){
+            return false;
+        }
+        i++;
+        j--;
+    }
+
+    return true;
+}
+    string shortestPalindrome(string s) {
+        
+        int maxLength = 0;
+        int index = 0;
+
+        for(int i=0;i<s.length();i++){
+
+            if(isPalindrome(s.substr(0, i+1))){
+                maxLength = i+1;
+            }
+        }
+
+
+        if(maxLength == s.length()){
+            return s;
+        }
+
+        string ans = "";
+
+        for(int i=maxLength;i<s.length();i++){
+            ans += s[i];
+        }
+
+        reverse(ans.begin(), ans.end());
+
+        for(int i=0;i<s.length();i++){
+            ans += s[i];
+        }
+
+        return ans;
+
+    }
+};
+
+// using KMP algorithm
+
 int main(){
 
     string str = "abcde";

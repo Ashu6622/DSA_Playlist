@@ -59,7 +59,6 @@ int main(){
             j++;
         }
         else{
-
             if(j == 0){
                 i++;
             }
