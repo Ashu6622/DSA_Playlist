@@ -4,3 +4,4 @@ Types of two pointers problem
 Slow and Fast Pointers
 3) When one pointers start from one end and other start from middle of array ->
 i = 0, j = n/2 or i = n-1 , j = n/2;
+
