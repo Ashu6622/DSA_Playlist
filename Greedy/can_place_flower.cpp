@@ -49,4 +49,6 @@ using namespace std;
         int n = 2;
 
         cout<<canPlaceFlowers(flowerbed, n)<<endl;
+
+        
  }
