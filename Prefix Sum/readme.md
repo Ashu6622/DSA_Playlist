@@ -1,0 +1,1 @@
+In order to count the subarrays, with some given sum (k), we always have to use the hashmap, as we store the prefix sum in the hashmap, and the count that how many time the prefix sum occurs
