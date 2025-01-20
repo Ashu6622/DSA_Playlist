@@ -14,3 +14,7 @@ very important
 let a b are 2 numbers
 if a&b == 0
 then a^b = a+b
+
+
+Most Important Topic of sliding window
+--> Monotonic increasing and decreasing
