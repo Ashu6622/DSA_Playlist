@@ -18,3 +18,6 @@ then a^b = a+b
 
 Most Important Topic of sliding window
 --> Monotonic increasing and decreasing
+1) stack
+2) queue
+3) dequeue
