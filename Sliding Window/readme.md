@@ -9,3 +9,8 @@ count1 - count2 == this will equal to subarray with k integers
 
 Important
 Minimum Operations to Reduce X to Zero => this problem can be solved using the approach to find the longest subarray with sum equal to X, this X is equal to total_sum of array minus k, the value of k is given, the final answer will be total length minus longest subarray length
+
+very important 
+let a b are 2 numbers
+if a&b == 0
+then a^b = a+b
