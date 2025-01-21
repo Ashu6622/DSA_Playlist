@@ -21,3 +21,5 @@ Most Important Topic of sliding window
 1) stack
 2) queue
 3) dequeue
+
+erase function in multiset is very important
