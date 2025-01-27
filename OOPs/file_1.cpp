@@ -13,4 +13,5 @@ class Student{
     Student S1;
     S1.name = "Ashutosh";
     cout<<S1.name<<endl;
+    
  }
