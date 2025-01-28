@@ -11,7 +11,7 @@ class Customer{
 
     inline Customer(string s, int val) : name(s), age(val) {}
 
-    Customer(Customer &c){
+    Customer(Customer &c){    //parameterised copy constructor
         this->name = c.name;
         this->age = c.age;
         this->balance = 23490.78;
