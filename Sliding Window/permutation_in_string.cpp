@@ -9,12 +9,6 @@ int solve(string &s, string &t){
         mp[t[i]]++;
     }
 
-    // for(int i=0;i<s.length();i++){
-    //     int val = mp.find(s[i]) == mp.end();
-    //     cout<<val<<" ";
-    // }
-    
-
     int i = 0;
     int j = 0;
     int cnt = t.length();
@@ -22,21 +16,20 @@ int solve(string &s, string &t){
     while(j < s.length()){
 
         if(mp[s[j]] > 0){
-            mp[s[j]]--;
             cnt--;
         }
-        // cout<<cnt<<endl;
 
-        if(cnt == 0){
+        mp[s[j]]--;
+
+        if(j-i+1 == t.length() && cnt == 0){
             return true;
         }
+        else if(j-i+1 == t.length() && cnt != 0){
 
-        if(j-i+1 == t.length() && cnt != 0){
+            mp[s[i]]++;
 
-            int val = mp.find(s[i]) != mp.end();
-            if(val){
+            if(mp[s[i]] > 0){
                 cnt++;
-                mp[s[i]]++;
             }
             i++;
         }
