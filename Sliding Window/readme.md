@@ -23,3 +23,8 @@ Most Important Topic of sliding window
 3) dequeue
 
 erase function in multiset is very important
+
+whenever in the sliding window we are asked to fnd the count of the subarrays , then thik of
+1) hashmap
+2) prefixSum
+2) two pointer
