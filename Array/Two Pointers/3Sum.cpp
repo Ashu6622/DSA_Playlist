@@ -20,7 +20,7 @@ int main(){
             // a + b = -c;
             // find a + b
             
-            int n = -nums[i];  //we have to search for opposite value
+            int n = -nums[i];  //we have to search for opposite value, because sum sholud be zero 
             int start = i+1;
             int end = nums.size()-1;
             vector<int> temp;
