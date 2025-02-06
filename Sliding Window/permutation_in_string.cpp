@@ -43,7 +43,7 @@ int solve(string &s, string &t){
 
 int main(){
 
-    string s = "eidbaooo";
+    string s = "lecabee";
     string t = "ab";
 
     int result = solve(s, t);
