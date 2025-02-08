@@ -7,3 +7,6 @@ Steps in Backtracking
 5) Undo the changes (optional)
 
 If the question asked to Generates some pattern then it will have backtracking concept
+
+Important Questions
+1) Combination II;
