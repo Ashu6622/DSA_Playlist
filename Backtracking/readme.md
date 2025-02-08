@@ -9,4 +9,5 @@ Steps in Backtracking
 If the question asked to Generates some pattern then it will have backtracking concept
 
 Important Questions
-1) Combination II;
+1) Combination II
+2) Subsets II
