@@ -1,34 +1,38 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void combination(int index, int sum, vector<int> &nums, int k, vector<int>& temp){
-
-    if(index >= nums.size()){
-
-        if(sum == k){
+void combination(int index, vector<int> &nums, int k, vector<int>& temp){
+        
+        if(k==0){
             for(int i=0;i<temp.size();i++){
                 cout<<temp[i]<<" ";
             }
             cout<<endl;
+            return;
         }
 
-        return;
-    }
+        for(int i=index; i<nums.size(); i++){
 
-    if(sum+nums[index] <= k){
-        temp.push_back(nums[index]);
-        combination(index+1, sum+nums[index], nums, k, temp);
-        temp.pop_back();
-    }
+            if(i != index && nums[i] == nums[i-1]){
+                continue;
+            }   
 
-    combination(index+1, sum, nums, k, temp);
+            if(k < nums[i]){  //array is sorted, so there will be always equal or greater elements ahead
+                return;
+            }
+
+            temp.push_back(nums[i]);
+            combination(i+1, nums, k-nums[i], temp);
+            temp.pop_back();
+        }
 }
 
 int main(){
 
-    vector<int> nums = {1, 2, 3, 3, 5};
-    int k = 7;
+    vector<int> nums = {2,5,2,1,2};
+    int k = 5;
+    sort(nums.begin(), nums.end());
     vector<int> temp;
 
-    combination(0, 0, nums, k, temp);
+    combination(0, nums, k, temp);
 }
