@@ -40,7 +40,7 @@ void solve(int index, string &s, vector<string>& temp, vector<vector<string>> &a
 
 int main(){
 
-    string s = "geek";
+    string s = "aaaa";
 
     vector<vector<string>> ans;
     vector<string> temp;
