@@ -10,7 +10,7 @@ int main(){
 
     for(int i=0;i<str.length();i++){
 
-        while(k > 0 && !st.empty() && st.top() > str[i]){
+        while(k > 0 && !st.empty() && st.top() > str[i]){ //if the top element of stack is greater than the current element then pop it from stack
             st.pop();
             k--;
         }
