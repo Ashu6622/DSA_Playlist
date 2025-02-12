@@ -5,8 +5,9 @@ using namespace std;
 // without using stack on GFG
 
 // to find next permutation
-// first find the first next greater element from right to left
+// first find the element having next greater element on its right
 // Once we find the element having the greater element on its right, so from that index find the element which is least greater till last index, then swap both element and sort from index+1 to end
+// here index = index of the element having next greater element on right
 
 int main(){
 
