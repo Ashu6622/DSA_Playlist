@@ -11,3 +11,5 @@ example ->  [2 1 0 5 3]
              2 2 2 5 5  -> prefix till index from left to right
              5 5 5 5 3  -> prefix till index from right to left            
 
+
+Calculating subarrays sum using queue
