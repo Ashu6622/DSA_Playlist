@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    vector<int> nums = {1,2,3,4,5,8,9,78,65,12,34,32};
+    vector<int> nums = {1,2,3};
 
     queue<pair<int,int>> q;
 

@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 void generateBinary(int n, string &temp){
 
     if(temp.size() == n){
