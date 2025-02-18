@@ -19,6 +19,8 @@ int main(){
     int cnt = 0;
     int minSwap = INT_MIN;
 
+    // find subarray of length k having maximum number of elements <= k
+
     while(j < nums.size()){
 
         if(nums[j] <= k){
