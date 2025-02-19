@@ -16,3 +16,7 @@ Calculating subarrays sum using queue
 
 Very Very Important Algorithm
 ->  Dutch National Flag based QuickSort.
+
+Important Questions
+1) Valid Mountain Array (941)
+2) Shortest Distance to a Character (821)
