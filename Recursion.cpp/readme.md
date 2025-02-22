@@ -1,5 +1,6 @@
 Important Question (Different One)
 1) Lexicographical Numbers  (leetcode 386)
+2) Reverse linked list using recursion (leetcode 206)
 
 Partition Problems
 1) partition of the string

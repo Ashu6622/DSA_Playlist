@@ -11,6 +11,7 @@ void partitionString(string s, int start) {
 
         // Print the current partition
         cout << left << " | " << right << endl;
+      
 
         // Recur on the right part
         partitionString(s, i + 1);
@@ -19,7 +20,7 @@ void partitionString(string s, int start) {
 
 int main(){
 
-        string S = "abcdefg";
+        string S = "1296";
 
         partitionString(S, 0);
 
