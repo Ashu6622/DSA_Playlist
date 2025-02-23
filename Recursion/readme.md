@@ -2,6 +2,7 @@ Important Question (Different One)
 1) Lexicographical Numbers  (leetcode 386)
 2) Reverse linked list using recursion (leetcode 206)
 3) Reorder List (leetcode 143)
+4) Construct String from Binary Tree (leetcode 606)
 
 Partition Problems
 1) partition of the string
