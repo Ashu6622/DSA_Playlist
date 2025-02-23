@@ -1,6 +1,7 @@
 Important Question (Different One)
 1) Lexicographical Numbers  (leetcode 386)
 2) Reverse linked list using recursion (leetcode 206)
+3) Reorder List (leetcode 143)
 
 Partition Problems
 1) partition of the string
@@ -14,4 +15,6 @@ Game Theory
 Same Type (merge sort type)
 1) Different Ways to Add Parentheses (leetcode 241)
 2) All Possible Full Binary Trees (leetcode 894)
+
+
 
