@@ -11,3 +11,7 @@ Type 1
 Book Allocation Problem
 Split array - Largest Sum
 Painter's partition
+
+Important
+1) Minimum Cost to Make Array Equal
+
