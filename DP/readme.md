@@ -19,5 +19,9 @@ Note- in substring, subsequence problem which required to calculate the length,
 
  int include_i = solve(i+1,j s1, s2);
  int include_j = solve(i, j+1, s1, s2);
+    return max(include_i, include_j);
 
- return max(include_i, include_j);
+Important conceptual
+-> Count All Possible Routes (leetcode 1575)
+in this question we can travel from start point to end point through multiple path
+ex = [2,3,6,8,4], start = 1, finish = 3, fuel = 5
