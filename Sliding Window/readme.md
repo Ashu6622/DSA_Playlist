@@ -32,4 +32,5 @@ whenever in the sliding window we are asked to fnd the count of the subarrays , 
 Important
 1) Minimum Swaps to Group All 1's Together II
 2) Minimum swaps and K together -> in this count all the elements less then and equal to k, then find the window which have maximum number of elements which are less then and equal to k
+3) Find Two Non-overlapping Sub-arrays Each With Target Sum (leercode 1477)
 
