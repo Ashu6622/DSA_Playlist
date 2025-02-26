@@ -14,4 +14,5 @@ Painter's partition
 
 Important
 1) Minimum Cost to Make Array Equal
+2) Minimize Maximum of Array
 
