@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// intuition behind range of the answer
+// if only one bus is available to complete all the trips, then total time taken to complete all the trips will be => time_taken_by_bus*no_of_trip
+// range of answer => (1 ----- min_time*trip)
+
 bool isPossible(vector<int>& time, int minTime, int k){
 
     int countTrip = 0;
