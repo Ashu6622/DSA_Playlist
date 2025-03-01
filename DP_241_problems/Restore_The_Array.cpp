@@ -16,7 +16,7 @@
 
         for(int i=idx; i< S.length(); i++){
 
-            int val = val*10 + (S[i] - '0');
+             val = val*10 + (S[i] - '0');
 
             if(val > k){
                 return totalCount;
