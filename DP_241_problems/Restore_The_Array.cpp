@@ -20,7 +20,7 @@
 
             if(val > k){
                 return totalCount;
-            }
+            } 
             int sum = solve(i+1, S, k);
             totalCount += sum;
         }
