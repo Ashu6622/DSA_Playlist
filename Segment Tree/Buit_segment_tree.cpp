@@ -9,7 +9,7 @@ void solve(int idx, int l, int r, vector<int> &arr, vector<int> &segTree){
     }
 
     int mid = (l+r)/2;
-
+    // here idx is the index of segment Tree array
     solve(2*idx+1, l, mid, arr, segTree); //left part
     solve(2*idx+2, mid+1, r, arr, segTree); //right part
 
