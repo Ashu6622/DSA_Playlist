@@ -18,14 +18,14 @@ void builtMinTree(int idx, int l, int r, vector<int>& arr, vector<int>& segTree)
 
 int main(){
 
-    vector<int> arr = {3, 1, 2, 7};
+    vector<int> arr = {5,3,7,4,1,6};
     int n = arr.size();
 
     vector<int> segTree(2*n);
 
     builtMinTree(0,0,n-1,arr,segTree);
 
-    for(int i=0;i<2*n-1;i++){
+    for(int i=0;i<segTree.size();i++){
         cout<<segTree[i]<<" ";
     }
 }
