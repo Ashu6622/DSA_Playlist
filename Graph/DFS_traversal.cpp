@@ -11,7 +11,6 @@ void adjacenyList(vector<pair<int,int>> &arr, unordered_map<int, list<int>> &adj
         adjList[u].push_back(v);
         adjList[v].push_back(u);
     }
-
 }
 
 void dfs(int node, unordered_map<int,list<int>> &adjList, unordered_map<int,int> &visited, vector<int> &output){
@@ -25,7 +24,6 @@ void dfs(int node, unordered_map<int,list<int>> &adjList, unordered_map<int,int>
             dfs(i, adjList, visited, output);
         }
     }
-
 }
 
 int main(){
@@ -66,6 +64,4 @@ int main(){
         cout<<output[i]<<" ";
     }
 
-
-      
 }
