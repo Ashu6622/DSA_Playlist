@@ -18,3 +18,8 @@ Minimum Spanning Tree
 ->minimum edges weight sum
 edges = V-1
 V = vertices 
+
+
+What is Complete Graph
+-> when all the edges are connected to each other
+-> no. of edges is nCr  n = nodes  r = 2 , as there willbe two nodes between one edge
