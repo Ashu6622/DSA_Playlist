@@ -10,3 +10,9 @@ Cycle Detection in Graph
 2) Cycle Detection in Undirected gragh using BFS
 3) Cycle Detection in Directed Graph using BFS called Kahn's algorithm
 4) Cycle Detection in Directed Graph using DFS
+
+Minimum Spanning Tree
+->select the edges with minimum weight
+->minimum edges weight sum
+edges = V-1
+V = vertices 
