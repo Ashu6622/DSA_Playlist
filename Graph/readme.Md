@@ -12,6 +12,8 @@ Cycle Detection in Graph
 4) Cycle Detection in Directed Graph using DFS
 
 Minimum Spanning Tree
+-> all points must be connected
+->every edge can be visited by other edges
 ->select the edges with minimum weight
 ->minimum edges weight sum
 edges = V-1
