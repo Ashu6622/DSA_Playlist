@@ -24,17 +24,17 @@ int main(){
         q.pop();
         
         cout<<top.first<<" "<<top.second<<endl;
-
+        
         for(int i=0;i<4;i++){
-
+            
             int x = top.first + X[i];
             int y = top.second + Y[i];
-
+            
             if(x >= 0 && y >= 0 && x < m && y < n && visited[x][y] == -1){
-
+                
                 q.push({x,y});
                 visited[x][y] = 1;
-
+                
             }
         }
 
