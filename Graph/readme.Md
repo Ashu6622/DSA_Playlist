@@ -23,3 +23,24 @@ V = vertices
 What is Complete Graph
 -> when all the edges are connected to each other
 -> no. of edges is V*(V-1)/2 , V = vertices
+
+Strongly Connected Components ->  Kosaraju's Algorithm GFG
+
+Bellman–Ford Algorithm
+1) Shortest Path in Graph containing negative weight
+2) also detect nagative weighted Cycle
+
+An undirected graph is a tree if it has the following properties. 
+1) There is no cycle. 
+2) The graph is connected.
+
+Important Question
+Multi-Source BFS
+1) Walls And Gates
+2) Rotting Oranges
+
+Kahn's algorithm
+1) no need of visited array
+2) inDegree array is needed
+3) queue to store node with inDegree 0
+4) node should be pushed in the queue only if its inDegree is 0
