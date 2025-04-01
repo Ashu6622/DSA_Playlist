@@ -18,15 +18,14 @@ void dfs(int i, int j, vector<vector<int>> &grid, vector<vector<int>> &visited){
 
         int x = i + X[k];
         int y = j + Y[k];
-        if(visited[i][j] == 0){
+
             dfs(x, y, grid, visited);
-        }
     }
 }
 
 int main(){
 
-    vector<vector<int>> grid = {{0,1,1,0}, {0,1,1,0}, {0,0,1,0}, {0,0,0,0}, {1,1,0,1}};
+    vector<vector<int>> grid = {{0,1,1,0,1,0,0}, {0,0,1,1,0,1,0}};
 
     m = grid.size();
     n = grid[0].size();
@@ -38,7 +37,7 @@ int main(){
 
         for(int j=0;j<n;j++){
 
-            if(grid[i][j] == 0 && visited[i][j] == 0){
+            if(grid[i][j] == 1 && visited[i][j] == 0){
                     dfs(i,j,grid, visited);
                     cnt++;
             }
