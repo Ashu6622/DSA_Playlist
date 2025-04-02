@@ -5,6 +5,8 @@ Dijkstra algorithm can be used for shortest path calculation for
 
 For Directed Acyclic Graph we can use topological sort algorithm
 
+For unweighted graph shortest distance can be find using simple BFS
+
 Cycle Detection in Graph
 1) Cycle Detection in Undirected graph using DFS
 2) Cycle Detection in Undirected gragh using BFS
@@ -39,7 +41,7 @@ Multi-Source BFS
 1) Walls And Gates
 2) Rotting Oranges
 
-Kahn's algorithm
+Kahn's algorithm 
 1) no need of visited array
 2) inDegree array is needed
 3) queue to store node with inDegree 0
