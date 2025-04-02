@@ -2,7 +2,7 @@
 using namespace std;
 
 // BFS traversal
-// both for directed and undirected graph
+// both for directed and undirected unweighted graph
 
 void adjacency(vector<vector<int>> &edges, unordered_map<int, list<int>> &adjList){
 
