@@ -3,7 +3,7 @@ Dijkstra algorithm can be used for shortest path calculation for
 2) directed acyclic weighted graph
 3) work for both cyclic and acyclic graph
 
-For Directed Acyclic Graph we can use topological sort algorithm
+For Directed Acyclic Graph we can use topological sort algorithm for shortest path
 
 For unweighted directed and undirected graph shortest distance can be find using simple BFS
 
@@ -29,17 +29,20 @@ What is Complete Graph
 Strongly Connected Components ->  Kosaraju's Algorithm GFG
 
 Bellman–Ford Algorithm
+for directed graph only
 1) Shortest Path in Graph containing negative weight
 2) also detect nagative weighted Cycle
 
 An undirected graph is a tree if it has the following properties. 
 1) There is no cycle. 
 2) The graph is connected.
+3) Map of Highest Peak
 
 Important Question
 Multi-Source BFS
 1) Walls And Gates
 2) Rotting Oranges
+4) Map of Highest Peak
 
 Kahn's algorithm 
 1) no need of visited array
