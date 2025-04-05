@@ -44,6 +44,9 @@ Multi-Source BFS
 2) Rotting Oranges
 4) Map of Highest Peak
 
+Important Question Type simple BFS (counting minimum step)
+1) Word Ladder
+
 Kahn's algorithm 
 1) no need of visited array
 2) inDegree array is needed
