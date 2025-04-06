@@ -51,5 +51,8 @@ Important Question Type simple BFS (counting minimum step)
 Kahn's algorithm 
 1) no need of visited array
 2) inDegree array is needed
-3) queue to store node with inDegree 0
+3) queue to store node with inDegree = 0
 4) node should be pushed in the queue only if its inDegree is 0
+
+Important DFS/BFS
+1) Making A Large Island
