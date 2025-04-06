@@ -46,6 +46,7 @@ Multi-Source BFS
 
 Important Question Type simple BFS (counting minimum step)
 1) Word Ladder
+2) Open the Lock
 
 Kahn's algorithm 
 1) no need of visited array
