@@ -60,3 +60,9 @@ Important DFS/BFS
 
 Queestions
 1) Possible Bipartition
+2) Is Graph Bipartite
+3) Minimum Time to Collect All Apples in a Tree
+4) Count Unreachable Pairs of Nodes in an Undirected Graph
+5) Minimum Number of Vertices to Reach All Nodes  (include the nodes whose indegree is zero)
+   Number of Operations to Make Network Connected
+6) Longest Cycle in a Graph (important)
