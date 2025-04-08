@@ -70,4 +70,9 @@ Queestions
 8) Path with Maximum Probability
 9) Find the City With the Smallest Number of Neighbors at a Threshold Distance (important)
 10) Redundant Connection (Union find)
-11) Critical Connections in a Network (Tarjan's Algorithm) (Bridges in Graph)
+
+
+Very Important
+1) Critical Connections in a Network (Tarjan's Algorithm) (Bridges in Graph)
+2) Articulation Point - I
+3) Accounts Merge (this question is to remove the redundant email and merge the email with same parent) so DSU is used here
