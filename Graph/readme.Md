@@ -66,3 +66,8 @@ Queestions
 5) Minimum Number of Vertices to Reach All Nodes  (include the nodes whose indegree is zero)
    Number of Operations to Make Network Connected
 6) Longest Cycle in a Graph (important)
+7) Keys and Rooms
+8) Path with Maximum Probability
+9) Find the City With the Smallest Number of Neighbors at a Threshold Distance (important)
+10) Redundant Connection (Union find)
+11) Critical Connections in a Network (Tarjan's Algorithm) (Bridges in Graph)
