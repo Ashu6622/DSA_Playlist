@@ -30,7 +30,7 @@ What is Complete Graph
 Strongly Connected Components ->  Kosaraju's Algorithm GFG only for directed graph
 first -> store the toposort in stack
 second -> Reverse all edges
-third -> call dfs according to the element from stack
+third -> call dfs according to the element from stack  
 
 Bellman–Ford Algorithm
 for directed graph only
