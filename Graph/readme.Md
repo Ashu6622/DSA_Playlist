@@ -18,6 +18,7 @@ Minimum Spanning Tree
 ->every edge can be visited by other edges
 ->select the edges with minimum weight
 ->minimum edges weight sum
+-> it is a given graph which suppose to be converted in tree
 edges = V-1
 V = vertices 
 
@@ -26,7 +27,10 @@ What is Complete Graph
 -> when all the edges are connected to each other
 -> no. of edges is V*(V-1)/2 , V = vertices
 
-Strongly Connected Components ->  Kosaraju's Algorithm GFG
+Strongly Connected Components ->  Kosaraju's Algorithm GFG only for directed graph
+first -> store the toposort in stack
+second -> Reverse all edges
+third -> call dfs according to the element from stack
 
 Bellman–Ford Algorithm
 for directed graph only
@@ -76,3 +80,4 @@ Very Important
 1) Critical Connections in a Network (Tarjan's Algorithm) (Bridges in Graph)
 2) Articulation Point - I
 3) Accounts Merge (this question is to remove the redundant email and merge the email with same parent) so DSU is used here
+4) Making A Large Island
